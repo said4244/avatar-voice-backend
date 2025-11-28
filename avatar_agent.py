@@ -85,7 +85,7 @@ async def entrypoint(ctx: agents.JobContext):
         realtime_model = openai.realtime.RealtimeModel(
             model="gpt-4o-realtime-preview-2024-12-17",
             voice="echo",
-            api_key="KANKERERRREREREERERER",
+            api_key="***REMOVED-OPENAI-KEY***",
             input_audio_transcription=InputAudioTranscription(
                 model="gpt-4o-transcribe",
                 language="en",
